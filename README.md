@@ -8,14 +8,12 @@ seconds ago") into seconds. Similar to the SQL keyword INTERVAL.
 Ago
 ---
 
-Appending the `ago` to an interval will negate it.
+Appending `ago` to an interval will negate it.
 
 
 Example
 -------
 
-    var interval = require("interval-nl")
-    console.log(interval("1 week ago"));
-
-    > node example.js
-    -604800
+    > var interval = require("interval-nl");
+    > interval("1 week 10 seconds ago");
+    -604810
