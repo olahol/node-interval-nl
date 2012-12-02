@@ -1,0 +1,25 @@
+{
+  "name": "interval-nl",
+  "description": "Convert strings of natural language intervals to seconds.",
+  "version": "0.0.1",
+  "author": "Ola Holmström <olaholmstrom+github@gmail.com>",
+  "keywords": ["time", "interval"],
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/olahol/node-interval-nl.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/olahol/node-interval-nl/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "nodeunit test/"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.4"
+  },
+  "engines": { "node": ">= 0.6.0" }
+}
